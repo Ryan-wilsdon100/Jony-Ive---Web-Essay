@@ -1,0 +1,276 @@
+*{
+  font-family: 'SF Pro Text', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+body{
+    background-color: #141414;
+}
+
+nav{
+    width: 100%;
+    height: 0%;
+    margin: 0 ;
+    display: flex;
+    float: left;
+    padding-top: 15px;
+    padding-left: 50px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 0px;
+    padding-left: 0px;
+  }
+  
+  li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'SF Pro', sans-serif;
+    padding-left: 30px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0%;
+    
+  }
+
+  li a:hover{
+    opacity: 1.5;
+    color: rgb(197, 197, 197);
+}
+
+#header{
+    background-image: url(images/HeaderIMG.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+#header h1{
+    font-size: 32px;
+    font-family: 'SF Pro', sans-serif;
+    padding-left: 100px;
+    padding-top: 280px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 500;
+}
+
+#header h2{
+    font-weight: 300;
+    padding-left: 100px;
+    margin-bottom: 0px;
+    font-family: 'SF Pro', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#header a{
+    margin-left: 100px;
+    padding: 15px 50px;
+    color: #FBFBFB;
+    font-weight: 400;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    font-family: 'SF Pro Text';
+    margin-bottom: 0%;
+  }
+  
+  #header a:hover{
+    background-color: #232323;
+    color: rgb(192, 192, 192);
+  }
+
+  #intro{
+    margin-top: 0%;
+    background-color: #141414;
+    max-height: fit-content;
+  }
+
+  #intro h2{
+    margin-bottom: 18px;
+    color: #ffffff;
+    padding-top: 60px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #intro p{
+    font-family: 'SF Pro Text', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+
+    margin-bottom: 80px;
+  }
+
+  #question{
+    padding: 60px 0;
+    background-color: #f6f6f6;
+  }
+
+  #question p{
+    color: #414141;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 24px;
+  }
+
+  #apple h2{
+    margin-bottom: 18px;
+    padding-top: 30px;
+    margin-top: 0%;
+    color: #ffffff;
+    padding-top: 60px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #apple p{
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    
+  }
+
+  #apple img{
+    width: 100%;
+  }
+
+
+  #designing h2{
+    margin-bottom: 18px;
+    padding-top: 30px;
+    margin-top: 0%;
+    color: #ffffff;
+    padding-top: 60px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #designing p{
+    font-family: 'SF Pro Text', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    
+  }
+
+  #designing img{
+    width:100%;
+  }
+
+  #stevejobs h2{
+    margin-bottom: 18px;
+    padding-top: 30px;
+    margin-top: 0%;
+    color: #ffffff;
+    padding-top: 60px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #stevejobs p{
+    font-family: 'SF Pro Text', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    
+  }
+
+  #quote{
+    background-color: #f6f6f6;
+    padding: 60px 0;
+  }
+
+  #quote p{
+    color: #414141;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 24px;
+  }
+
+  #quote h4{
+    font-size: 12px;
+    font-family: 'SF Pro Text', sans-serif;
+    color: #626262;
+    text-align: left;
+  }
+
+  #lovefrom h2{
+    margin-bottom: 18px;
+    padding-top: 50px;
+    margin-top: 0%;
+    color: #ffffff;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #lovefrom p{
+    font-family: 'SF Pro Text', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    
+  }
+
+  #lovefrom img{
+    width: 100%;
+  }
+
+
+#conclusion h2{
+    margin-bottom: 18px;
+    padding-top: 50px;
+    margin-top: 0%;
+    color: #ffffff;
+    font-family: 'SF Pro', sans-serif;
+    font-weight:400;
+  }
+
+  #conclusion p{
+    font-family: 'SF Pro Text', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+  }
+
+  .column{
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  h5{
+    color: #969696;
+    padding-left: 486px;
+    padding-top: 10px;
+  }
+
+  #reference{
+    background-color: #232323;
+    margin-top: 50px;
+  }
+
+  #reference p{
+    font-size: 10px;
+    color: #aeaeae;
+    padding: 50px 0;
+  }
+
+  
