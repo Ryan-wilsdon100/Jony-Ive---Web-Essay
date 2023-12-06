@@ -256,9 +256,9 @@ nav{
     margin: 0 auto;
   }
 
-  h5{
+ .column h5{
     color: #969696;
-    padding-left: 486px;
+   
     padding-top: 10px;
   }
 
@@ -273,4 +273,3 @@ nav{
     padding: 50px 0;
   }
 
-  
